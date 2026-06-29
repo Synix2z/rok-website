@@ -13,6 +13,8 @@
     --gradient-button: linear-gradient(90deg, #C084FC 0%, #7C4EEE 50%, #4F46E5 100%);
 
     --color-text-secondary : #A78BFA;
+
+    --nav-height: 40px;
 }
 
 * {

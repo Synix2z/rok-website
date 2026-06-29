@@ -1,34 +1,35 @@
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    scroll-margin-top: 110px;
 }
 
 .title {
-  display: inline-block;
-  font-family: var(--font-text-title);
-  font-size: var(--font-size-text-title);
-  color: var(--color-text-primary);
-  text-align: center;
+    display: inline-block;
+    font-family: var(--font-text-title);
+    font-size: var(--font-size-text-title);
+    color: var(--color-text-primary);
+    text-align: center;
 }
 
 .lineCircleWrapper {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
 }
 
 .line {
-  flex: 1;
-  height: 2px;
-  background-color: var(--color-text-primary);
+    flex: 1;
+    height: 2px;
+    background-color: var(--color-text-primary);
 }
 
 .circle {
-  width: 10px;
-  height: 10px;
-  background-color: #A78BFA;
-  border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #A78BFA;
+    border-radius: 50%;
 }

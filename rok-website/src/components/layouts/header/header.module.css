@@ -24,23 +24,30 @@
 .nav {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
-.nav a {
+.nav a,
+.nav button {
     font-family: var(--font-text-primary);
     font-size: var(--font-size-text-primary);
     color: var(--color-text-primary);
     text-decoration: none;
     position: relative;
     padding-bottom: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav button:hover {
     color: var(--color-text-secondary);
 }
 
 /* Underline effect for navigation links */
-.nav a::after {
+.nav a::after,
+.nav button::after {
     content: "";
     position: absolute;
     left: 0;
@@ -54,6 +61,7 @@
     transition: transform 0.25s ease;
 }
 
-.nav a:hover::after {
+.nav a:hover::after,
+.nav button:hover::after {
     transform: scaleX(1);
 }
