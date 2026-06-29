@@ -23,4 +23,5 @@
 
 body {
     background-color: var(--color-background);
+    padding-top: 100px;
 }
