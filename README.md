@@ -1,7 +1,8 @@
 # Synix2z — Personal Website
 
 ## 📘 Overview
-This project is a personal website created to present my gaming profile, especially my journey and statistics in **Rise of Kingdoms**.  
+This project is a personal website created to present my gaming profile, especially my journey and statistics in **Rise of Kingdoms**. 
+
 Instead of sharing simple screenshots, I wanted a clean, modern and pleasant way to showcase my information through a dedicated website.
 
 The entire project is built using **React**, with a minimalist structure, smooth navigation.
@@ -19,6 +20,7 @@ The entire project is built using **React**, with a minimalist structure, smooth
 
 ## 📂 Project Structure
 
+```
 src/
 ├── components/
 │    ├── layouts/
@@ -31,3 +33,4 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── variable.css
+```
