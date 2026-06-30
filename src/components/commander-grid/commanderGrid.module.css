@@ -1,0 +1,59 @@
+.commandersGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center;
+  gap: 10px 10px;
+  margin: 32px auto 0;
+}
+
+.commanderItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commanderImage {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.commanderImage:hover {
+  transform: scale(1.08);
+}
+
+/* Layout commander gears */
+.commanderItem:nth-child(1) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.commanderItem:nth-child(2) {
+  grid-row: 2;
+}
+
+.commanderItem:nth-child(3) {
+  grid-row: 2;
+}
+
+.commanderItem:nth-child(4) {
+  grid-row: 2;
+}
+
+.commanderItem:nth-child(5) {
+  grid-row: 3;
+}
+
+.commanderItem:nth-child(6) {
+  grid-row: 3;
+}
+
+.commanderItem:nth-child(7) {
+  grid-row: 3;
+}
+
+.commanderItem:nth-child(8) {
+  grid-column: 2;
+  grid-row: 4;
+}

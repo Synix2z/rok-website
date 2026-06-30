@@ -20,6 +20,11 @@
     margin-right: auto;
 }
 
+.logo:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
 /* Navigation styles */
 .nav {
     display: flex;

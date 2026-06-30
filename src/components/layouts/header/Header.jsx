@@ -20,6 +20,7 @@ export default function Header() {
       <Link to="/" className={styles.logo}>Synix2z</Link>
       <nav className={styles.nav}>
         <button onClick={() => scrollToSection("about-title")}>About</button>
+        <button onClick={() => scrollToSection("commanders-title")}>Commanders</button>
       </nav>
     </header>
   );

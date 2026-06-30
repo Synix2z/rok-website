@@ -1,0 +1,42 @@
+/* Formatting for the inscription component */
+.inscriptionCommon,
+.inscriptionRare,
+.inscriptionLegendary {
+  position: relative;
+  width: 200px;
+  padding: 4px 0;
+  text-align: center;
+  font-family: var(--font-text-button);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 30px;
+  clip-path: polygon(
+    0% 50%,
+    18% 0%,
+    82% 0%,
+    100% 50%,
+    82% 100%,
+    18% 100%
+  );
+}
+
+.inscriptionCommon:hover,
+.inscriptionRare:hover,
+.inscriptionLegendary:hover {
+  transform: scale(1.08);
+}
+
+.inscriptionCommon {
+  background-color: var(--color-inscription-common);
+  color: #000000;
+}
+
+.inscriptionRare {
+  background-color: var(--color-inscription-rare);
+  color: #434da5;
+}
+
+.inscriptionLegendary {
+  background-color: var(--color-inscription-legendary);
+  color: #ca6819;
+}

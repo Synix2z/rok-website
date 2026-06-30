@@ -14,6 +14,10 @@
 
     --color-text-secondary : #A78BFA;
 
+    --color-inscription-common: #e7e7e7;
+    --color-inscription-rare: #b3d0fb;
+    --color-inscription-legendary: #fff77a;
+
     --nav-height: 40px;
 }
 

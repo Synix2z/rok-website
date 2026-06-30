@@ -2,6 +2,7 @@
     padding-top: var(--nav-height);
 }
 
+/* About Section */
 .aboutContent {
     display: flex;
     flex-direction: column;
@@ -24,4 +25,64 @@
     text-align: left;
     font-size: var(--font-size-text-primary);
     line-height: 1.5;
+}
+
+/* Commanders Section */
+.commandersColumn {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+
+.commandersColumn>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Commanders Header Section */
+.commanderHeader {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.commanderHeaderImage {
+    width: 90px;
+    height: auto;
+}
+
+.commanderHeaderImage:hover {
+    transform: scale(1.08);
+    transition: transform 0.2s ease;
+}
+
+/* Inscription Section */
+.inscriptionsColumn {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 10px 20px;
+    margin-top: 30px;
+}
+
+/* Stats Section */
+.Stats ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: var(--color-text-primary);
+    font-family: var(--font-text-basic);
+    font-size: var(--font-size-text-primary);
+    margin-top: 40px;
+}
+
+.statImage {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 10px;
 }
