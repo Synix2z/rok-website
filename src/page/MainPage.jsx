@@ -7,6 +7,7 @@ import About from './sections/about/About'
 import Commanders from './sections/commanders/Commanders'
 import Statistics from './sections/statistics/Statistics'
 import FadeIn from '../components/fade-in/FadeIn'
+import Timeline from './sections/timeline/timeline'
 
 import styles from './mainPage.module.css'
 
@@ -27,6 +28,12 @@ function MainPage() {
 
       <FadeIn delay={200}>
         <Statistics />
+      </FadeIn>
+
+      <Separator />
+
+      <FadeIn delay={300}>
+        <Timeline />
       </FadeIn>
     </div>
   );

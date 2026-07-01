@@ -1,15 +1,17 @@
-/* Formatting for the inscription component */
+/* Base style for all inscription variants */
 .inscriptionCommon,
 .inscriptionRare,
 .inscriptionLegendary {
   position: relative;
   width: 200px;
-  padding: 4px 0;
+  padding: 6px 0;
   text-align: center;
   font-family: var(--font-text-button);
   font-size: 15px;
   font-weight: 600;
   border-radius: 30px;
+
+  /* Clean hexagon shape */
   clip-path: polygon(
     0% 50%,
     18% 0%,
@@ -18,25 +20,47 @@
     82% 100%,
     18% 100%
   );
+
+  /* Soft shadow + subtle border */
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+
+  /* Smooth animation */
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+/* Hover effect */
 .inscriptionCommon:hover,
 .inscriptionRare:hover,
 .inscriptionLegendary:hover {
   transform: scale(1.08);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.35);
 }
 
+/* Colors tuned to match your UI style */
 .inscriptionCommon {
-  background-color: var(--color-inscription-common);
-  color: #000000;
+  background: linear-gradient(
+    180deg,
+    var(--color-inscription-common) 0%,
+    #d4d4d4 100%
+  );
+  color: #000;
 }
 
 .inscriptionRare {
-  background-color: var(--color-inscription-rare);
+  background: linear-gradient(
+    180deg,
+    var(--color-inscription-rare) 0%,
+    #b7c0ff 100%
+  );
   color: #434da5;
 }
 
 .inscriptionLegendary {
-  background-color: var(--color-inscription-legendary);
+  background: linear-gradient(
+    180deg,
+    var(--color-inscription-legendary) 0%,
+    #f3c08a 100%
+  );
   color: #ca6819;
 }
