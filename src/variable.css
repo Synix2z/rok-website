@@ -1,18 +1,18 @@
 :root {
-    --color-primary : #161D2F;
-    --color-background : #1D2335;
+    --color-primary: #161D2F;
+    --color-background: #1D2335;
 
     --font-text-primary: 'DM Sans', sans-serif;
-    --color-text-primary : #FFFFFF;
-    --font-size-text-primary : 18px;
+    --color-text-primary: #FFFFFF;
+    --font-size-text-primary: 18px;
 
     --font-text-title: 'Syne', sans-serif;
-    --font-size-text-title : 25px;
+    --font-size-text-title: 25px;
 
     --font-text-button: 'Space Grotesk', sans-serif;
     --gradient-button: linear-gradient(90deg, #C084FC 0%, #7C4EEE 50%, #4F46E5 100%);
 
-    --color-text-secondary : #A78BFA;
+    --color-text-secondary: #A78BFA;
 
     --color-inscription-common: #e7e7e7;
     --color-inscription-rare: #b3d0fb;
@@ -30,4 +30,14 @@
 body {
     background-color: var(--color-background);
     padding-top: 100px;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }

@@ -1,4 +1,3 @@
-// Header.jsx
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import styles from "./header.module.css";

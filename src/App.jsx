@@ -4,16 +4,21 @@ import Header from './components/layouts/header/Header'
 import Footer from './components/layouts/footer/Footer'
 
 import MainPage from './page/MainPage'
+import LegalMentions from './page/legal-mentions/LegalMentions'
+import TechStack from './page/tech-stack/TechStack'
 
 
 function App() {
   return (
     <BrowserRouter>
         <Header />
-        <Routes>
-            <Route path="/" element={<MainPage />} />
-        </Routes>
-
+        <main>
+            <Routes>
+                <Route path="/" element={<MainPage />} />
+                <Route path="/legal" element={<LegalMentions />} />
+                <Route path="/tech-stack" element={<TechStack />} />
+            </Routes>
+        </main>
         <Footer />
     </BrowserRouter>
   )

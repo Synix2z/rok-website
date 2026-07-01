@@ -6,9 +6,8 @@ export default function Footer() {
         <footer className={styles.footer}>
             <div className={styles.footerContent}>
 
-                {/* Left — ID + links */}
+                {/* Left — Links */}
                 <div className={styles.informations}>
-                    <p className={styles.id}>ID : 131046134</p>
                     <div className={styles.footerNav}>
                         <Link to="/legal" className={styles.footerLink}>Legal Mentions</Link>
                         <Link to="/tech-stack" className={styles.footerLink}>Tech Stack</Link>
@@ -20,8 +19,9 @@ export default function Footer() {
                     © 2026 Synix2z — All rights reserved
                 </p>
 
-                {/* Right — GitHub */}
+                {/* Right — Contact */}
                 <div className={styles.footerLinks}>
+                    <p className={styles.id}>ID : 131046134</p>
                     <Link to="https://github.com/Synix2z" target="_blank" rel="noopener noreferrer">
                         <img
                             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
