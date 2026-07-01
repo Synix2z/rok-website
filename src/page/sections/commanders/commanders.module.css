@@ -1,32 +1,3 @@
-.content {
-    padding-top: var(--nav-height);
-}
-
-/* About Section */
-.aboutContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.profileImage {
-    margin: 50px 0px;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.aboutText {
-    max-width: 800px;
-    color: var(--color-text-primary);
-    font-family: var(--font-text-basic);
-    text-align: left;
-    font-size: var(--font-size-text-primary);
-    line-height: 1.5;
-}
-
 /* Commanders Section */
 .commandersColumn {
     display: flex;

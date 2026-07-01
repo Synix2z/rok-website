@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.progressiveBar {
+    flex: 1;
+    height: 16px;
+    background-color: var(--color-primary);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: var(--gradient-button);
+    border-radius: 8px;
+    transition: width 1.2s ease;
+}
+
+.percentage {
+    font-family: var(--font-text-primary);
+    font-size: var(--font-size-text-title);
+    color: var(--color-text-primary);
+    min-width: 40px;
+}

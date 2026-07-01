@@ -1,0 +1,53 @@
+/* Statistics Section */
+.statisticsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.vipTitle {
+    font-family: var(--font-text-primary);
+    font-size: var(--font-size-text-title);
+    color: var(--color-text-secondary);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.statisticsContent > div {
+    width: 800px;
+}
+
+.vipBarWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Galerie */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.galleryRow {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.galleryRow.left {
+    align-items: flex-start;
+    padding-left: 10%;
+}
+
+.galleryRow.right {
+    align-items: flex-end;
+    padding-right: 10%;
+}

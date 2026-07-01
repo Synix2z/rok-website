@@ -1,0 +1,49 @@
+.counter {
+    border: 1px solid rgba(167, 139, 250, 0.2);
+    border-radius: 12px;
+    padding: 24px 32px;
+    background: rgba(167, 139, 250, 0.05);
+}
+
+.valueWrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.icon {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    -webkit-text-fill-color: white;
+    flex-shrink: 0;
+    margin-top: 8px;
+}
+
+.valueContent {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.value {
+    font-size: 64px;
+    font-family: var(--font-text-primary);
+    font-weight: 700;
+    line-height: 1;
+    color: var(--color-text-secondary);
+    text-shadow: 0 0 60px rgba(167, 139, 250, 0.4);
+    word-spacing: 8px;
+}
+
+.label {
+    font-size: var(--font-size-text-primary);
+    font-family: var(--font-text-primary);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--gradient-button);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

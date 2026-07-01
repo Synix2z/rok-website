@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/layouts/header/Header'
 import Footer from './components/layouts/footer/Footer'
 
-import Home from './pages/home-page/Home'
+import MainPage from './page/MainPage'
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
         <Header />
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<MainPage />} />
         </Routes>
 
         <Footer />

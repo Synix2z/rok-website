@@ -21,6 +21,7 @@ export default function Header() {
       <nav className={styles.nav}>
         <button onClick={() => scrollToSection("about-title")}>About</button>
         <button onClick={() => scrollToSection("commanders-title")}>Commanders</button>
+        <button onClick={() => scrollToSection("statistics-title")}>Statistics</button>
       </nav>
     </header>
   );

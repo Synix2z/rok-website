@@ -5,6 +5,12 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <div className={styles.footerContent}>
+                <div className={styles.informations}>
+                    <p className={styles.id}>
+                        ID : 131046134
+                    </p>
+                </div>
+
                 <p className={styles.footerText}>
                     © 2026 Synix2z — All rights reserved
                 </p>
