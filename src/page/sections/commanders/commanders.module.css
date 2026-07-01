@@ -55,8 +55,8 @@
 .Stats ul li {
     display: flex;
     align-items: center;
-    gap: 6px;
-    line-height: 2;
+    gap: 12px;
+    line-height: 2.2;
 }
 
 /* Stat icon formatting */

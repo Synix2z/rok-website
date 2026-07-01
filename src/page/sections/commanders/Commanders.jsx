@@ -31,6 +31,8 @@ import Archer_Stats from "../../../images/stats/Archer_Stats.png";
 import Barbarian_Stats from "../../../images/stats/Barbarian_Stats.png";
 import Inf_Stats from "../../../images/stats/Inf_Stats.png";
 
+import { Sword, BowArrow, Axe } from "lucide-react";
+
 export default function Commanders() {
     return (
         <>
@@ -68,13 +70,13 @@ export default function Commanders() {
                     {/* Stats section */}
                     <div className={styles.Stats}>
                         <ul>
-                            <li><img src={Inf_Stats} alt="Infantry Stat" className={styles.statImage} /> Infantry Attack +7.2%</li>
-                            <li><img src={Inf_Stats} alt="Infantry Stat" className={styles.statImage} /> Infantry Defense +4.9%</li>
-                            <li><img src={Inf_Stats} alt="Infantry Stat" className={styles.statImage} /> Infantry Health 9.6%</li>
-                            <li><img src={Archer_Stats} alt="Archer Stat" className={styles.statImage} /> Archer Attack +2.6%</li>
-                            <li><img src={Archer_Stats} alt="Archer Stat" className={styles.statImage} /> Archer Defense +1.9%</li>
-                            <li><img src={Archer_Stats} alt="Archer Stat" className={styles.statImage} /> Archer March +2.8%</li>
-                            <li><img src={Barbarian_Stats} alt="Barbarian Stat" className={styles.statImage} /> Barbarian Attack <span>+6.6%</span></li>
+                            <li><Sword size={30} color="#0a88df" /> Infantry Attack +7.2%</li>
+                            <li><Sword size={30} color="#0a88df" /> Infantry Defense +4.9%</li>
+                            <li><Sword size={30} color="#0a88df" /> Infantry Health 9.6%</li>
+                            <li><BowArrow size={30} color="#e44033" /> Archer Attack +2.6%</li>
+                            <li><BowArrow size={30} color="#e44033" /> Archer Defense +1.9%</li>
+                            <li><BowArrow size={30} color="#e44033" /> Archer March +2.8%</li>
+                            <li><Axe size={30} color="#d9b800" /> Barbarian Attack <span>+6.6%</span></li>
                         </ul>
                     </div>
                 </div>
@@ -109,9 +111,9 @@ export default function Commanders() {
                     {/* Stats section */}
                     <div className={styles.Stats}>
                         <ul>
-                            <li><img src={Inf_Stats} alt="Infantry Stat" className={styles.statImage} /> Infantry Attack +9.9%</li>
-                            <li><img src={Inf_Stats} alt="Infantry Stat" className={styles.statImage} /> Infantry Defense +9.9%</li>
-                            <li><img src={Inf_Stats} alt="Infantry Stat" className={styles.statImage} /> Infantry Health 10.9%</li>
+                            <li><Sword size={30} color="#0a88df" /> Infantry Attack +9.9%</li>
+                            <li><Sword size={30} color="#0a88df" /> Infantry Defense +9.9%</li>
+                            <li><Sword size={30} color="#0a88df" /> Infantry Health 10.9%</li>
                         </ul>
                     </div>
                 </div>

@@ -2,65 +2,63 @@
 .inscriptionCommon,
 .inscriptionRare,
 .inscriptionLegendary {
-  position: relative;
-  width: 200px;
-  padding: 6px 0;
-  text-align: center;
-  font-family: var(--font-text-button);
-  font-size: 15px;
-  font-weight: 600;
-  border-radius: 30px;
+    position: relative;
+    min-width: 140px;
+    padding: 6px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
-  /* Clean hexagon shape */
-  clip-path: polygon(
-    0% 50%,
-    18% 0%,
-    82% 0%,
-    100% 50%,
-    82% 100%,
-    18% 100%
-  );
+    font-family: var(--font-text-button);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 
-  /* Soft shadow + subtle border */
-  border: 2px solid rgba(0, 0, 0, 0.15);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 2px solid transparent;
 
-  /* Smooth animation */
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Hover effect */
 .inscriptionCommon:hover,
 .inscriptionRare:hover,
 .inscriptionLegendary:hover {
-  transform: scale(1.08);
-  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2px);
 }
 
-/* Colors tuned to match your UI style */
+/* Common */
 .inscriptionCommon {
-  background: linear-gradient(
-    180deg,
-    var(--color-inscription-common) 0%,
-    #d4d4d4 100%
-  );
-  color: #000;
+    background-color: var(--color-inscription-common);
+    border-color: #000;
+    color: #000;
+    box-shadow: 0 0 8px rgba(231, 231, 231, 0.15);
 }
 
+.inscriptionCommon:hover {
+    box-shadow: 0 0 16px rgba(231, 231, 231, 0.3);
+}
+
+/* Rare */
 .inscriptionRare {
-  background: linear-gradient(
-    180deg,
-    var(--color-inscription-rare) 0%,
-    #b7c0ff 100%
-  );
-  color: #434da5;
+    background-color: var(--color-inscription-rare);
+    border-color: #434da5;
+    color: #434da5;
+    box-shadow: 0 0 8px rgba(179, 208, 251, 0.15);
 }
 
+.inscriptionRare:hover {
+    box-shadow: 0 0 16px rgba(179, 208, 251, 0.3);
+}
+
+/* Legendary */
 .inscriptionLegendary {
-  background: linear-gradient(
-    180deg,
-    var(--color-inscription-legendary) 0%,
-    #f3c08a 100%
-  );
-  color: #ca6819;
+    background-color: var(--color-inscription-legendary);
+    border-color: #ca6819;
+    color: #ca6819;
+    box-shadow: 0 0 8px rgba(255, 247, 122, 0.15);
+}
+
+.inscriptionLegendary:hover {
+    box-shadow: 0 0 16px rgba(255, 247, 122, 0.3);
 }
