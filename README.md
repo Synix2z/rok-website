@@ -23,14 +23,34 @@ The entire project is built using **React**, with a minimalist structure, smooth
 ```
 src/
 ├── components/
-│    ├── layouts/
-│    │     ├── header/
-│    │     └── footer/
-│    └── ...
-├── pages/
-│    └── home-page/
+│   ├── layouts/
+│   │   ├── header/
+│   │   └── footer/
+│   │
+│   ├── commander-grid/
+│   ├── inscription/
+│   ├── fade-in/
+│   ├── stat-counter/
+│   └── title-section/
+│
+├── hooks/
+│
 ├── images/
+│   ├── commanders/
+│   ├── stuff/
+│   └── stats/
+│
+├── page/
+│   ├── MainPage.jsx
+│   ├── mainPage.module.css
+│   └── sections/
+│       ├── about/
+│       ├── commanders/
+│       ├── statistics/
+│       └── timeline/
+│
 ├── App.jsx
 ├── main.jsx
 └── variable.css
+
 ```
