@@ -12,15 +12,19 @@ export default function LegalMentions() {
 
             <div className={styles.section}>
                 <h2 className={styles.sectionTitle}>Hosting</h2>
-                <p className={styles.text}>x</p>
+                <p className={styles.text}>
+                    This website is hosted by <span className={styles.highlight}>Vercel Inc.</span>,
+                    located at 440 N. Barranca Ave Number 4133 Covina California 91723, USA.
+                    For more information, visit <span className={styles.highlight}>vercel.com</span>.
+                </p>
             </div>
 
             <div className={styles.section}>
                 <h2 className={styles.sectionTitle}>Intellectual Property</h2>
                 <p className={styles.text}>
-                    Some images and assets used on this website originate from <span className={styles.highlight}>Rise of Kingdoms</span>, 
-                    developed and published by <span className={styles.highlight}>Lilith Games</span>. 
-                    All rights related to these assets belong to their respective owners. Their use on this website is purely illustrative 
+                    Some images and assets used on this website originate from <span className={styles.highlight}>Rise of Kingdoms</span>,
+                    developed and published by <span className={styles.highlight}>Lilith Games</span>.
+                    All rights related to these assets belong to their respective owners. Their use on this website is purely illustrative
                     and non-commercial.
                 </p>
                 <p className={styles.text}>
