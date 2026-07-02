@@ -7,7 +7,7 @@ import About from './sections/about/About'
 import Commanders from './sections/commanders/Commanders'
 import Statistics from './sections/statistics/Statistics'
 import FadeIn from '../components/fade-in/FadeIn'
-import Timeline from './sections/timeline/timeline'
+import Timeline from './sections/timeline/Timeline'
 
 import styles from './mainPage.module.css'
 
