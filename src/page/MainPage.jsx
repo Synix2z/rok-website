@@ -8,12 +8,14 @@ import Commanders from './sections/commanders/Commanders'
 import Statistics from './sections/statistics/Statistics'
 import FadeIn from '../components/fade-in/FadeIn'
 import Timeline from './sections/timeline/Timeline'
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 import styles from './mainPage.module.css'
 
 function MainPage() {
   return (
     <div className={styles.content}>
+      <SpeedInsights />
       <FadeIn delay={0}>
         <About />
       </FadeIn>
